@@ -1,0 +1,1884 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16223 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/84347/Documents/Work/Pet
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59684
+Successfully changed project path to: C:/Users/84347/Documents/Work/Pet
+C:/Users/84347/Documents/Work/Pet
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [356] Host "[IP] 192.168.1.46 [Port] 0 [Flags] 2 [Guid] 2199731749 [EditorId] 2199731749 [Version] 1048832 [Id] WindowsEditor(7,GameStudio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [356] Host "[IP] 192.168.1.46 [Port] 0 [Flags] 2 [Guid] 2199731749 [EditorId] 2199731749 [Version] 1048832 [Id] WindowsEditor(7,GameStudio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 94.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/84347/Documents/Work/Pet/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 XT (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16337 MB
+    Driver:   31.0.12027.9001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004195 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 210 ms
+Refreshing native plugins compatible for Editor in 91.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Domain Reload Profiling:
+	ReloadAssembly (719ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (77ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (263ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005110 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 90.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.972 seconds
+Domain Reload Profiling:
+	ReloadAssembly (973ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (802ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (295ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3805 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (203.3 KB). Loaded Objects now: 4271.
+Memory consumption went from 148.1 MB to 147.9 MB.
+Total: 3.023300 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.136000 ms MarkObjects: 2.495800 ms  DeleteObjects: 0.149200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 97778.674684 seconds.
+  path: Assets/MyAssets/PetData/Yellow.asset
+  artifactKey: Guid(27538eba49f9b4746a5f814be4ceaacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/PetData/Yellow.asset using Guid(27538eba49f9b4746a5f814be4ceaacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e6dc6d00a580bd8769dd0bd2a9156c') in 0.040602 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003215 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Domain Reload Profiling:
+	ReloadAssembly (759ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (582ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.8 KB). Loaded Objects now: 4275.
+Memory consumption went from 145.5 MB to 145.3 MB.
+Total: 2.559800 ms (FindLiveObjects: 0.209400 ms CreateObjectMapping: 0.133900 ms MarkObjects: 2.088500 ms  DeleteObjects: 0.127200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003086 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Domain Reload Profiling:
+	ReloadAssembly (775ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (603ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.9 KB). Loaded Objects now: 4278.
+Memory consumption went from 145.5 MB to 145.4 MB.
+Total: 2.773500 ms (FindLiveObjects: 0.219700 ms CreateObjectMapping: 0.108300 ms MarkObjects: 2.306000 ms  DeleteObjects: 0.138400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003032 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.715 seconds
+Domain Reload Profiling:
+	ReloadAssembly (716ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (547ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.0 KB). Loaded Objects now: 4281.
+Memory consumption went from 145.6 MB to 145.4 MB.
+Total: 2.869100 ms (FindLiveObjects: 0.202400 ms CreateObjectMapping: 0.102300 ms MarkObjects: 2.376900 ms  DeleteObjects: 0.186500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004004 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Domain Reload Profiling:
+	ReloadAssembly (771ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.9 KB). Loaded Objects now: 4284.
+Memory consumption went from 145.6 MB to 145.4 MB.
+Total: 2.498000 ms (FindLiveObjects: 0.186900 ms CreateObjectMapping: 0.087600 ms MarkObjects: 2.091800 ms  DeleteObjects: 0.130800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004435 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.720 seconds
+Domain Reload Profiling:
+	ReloadAssembly (721ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (548ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.8 KB). Loaded Objects now: 4287.
+Memory consumption went from 145.6 MB to 145.4 MB.
+Total: 2.288100 ms (FindLiveObjects: 0.177300 ms CreateObjectMapping: 0.083400 ms MarkObjects: 1.906400 ms  DeleteObjects: 0.119900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003157 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (737ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (554ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (233ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.8 KB). Loaded Objects now: 4290.
+Memory consumption went from 145.6 MB to 145.4 MB.
+Total: 2.410900 ms (FindLiveObjects: 0.207900 ms CreateObjectMapping: 0.097700 ms MarkObjects: 1.959500 ms  DeleteObjects: 0.144700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004740 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.732 seconds
+Domain Reload Profiling:
+	ReloadAssembly (732ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (544ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.8 KB). Loaded Objects now: 4293.
+Memory consumption went from 145.6 MB to 145.4 MB.
+Total: 2.312000 ms (FindLiveObjects: 0.184500 ms CreateObjectMapping: 0.090900 ms MarkObjects: 1.926300 ms  DeleteObjects: 0.109600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004871 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.748 seconds
+Domain Reload Profiling:
+	ReloadAssembly (748ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.9 KB). Loaded Objects now: 4296.
+Memory consumption went from 145.6 MB to 145.4 MB.
+Total: 2.339300 ms (FindLiveObjects: 0.187300 ms CreateObjectMapping: 0.090300 ms MarkObjects: 1.924200 ms  DeleteObjects: 0.136700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003259 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Domain Reload Profiling:
+	ReloadAssembly (700ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (530ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.8 KB). Loaded Objects now: 4299.
+Memory consumption went from 145.6 MB to 145.5 MB.
+Total: 2.390200 ms (FindLiveObjects: 0.198400 ms CreateObjectMapping: 0.091700 ms MarkObjects: 1.974300 ms  DeleteObjects: 0.124900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003177 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.717 seconds
+Domain Reload Profiling:
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (535ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.1 KB). Loaded Objects now: 4302.
+Memory consumption went from 145.7 MB to 145.5 MB.
+Total: 2.739900 ms (FindLiveObjects: 0.226600 ms CreateObjectMapping: 0.100800 ms MarkObjects: 2.280100 ms  DeleteObjects: 0.131300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004469 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.732 seconds
+Domain Reload Profiling:
+	ReloadAssembly (732ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (557ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.1 KB). Loaded Objects now: 4305.
+Memory consumption went from 145.7 MB to 145.5 MB.
+Total: 2.487900 ms (FindLiveObjects: 0.197700 ms CreateObjectMapping: 0.101400 ms MarkObjects: 2.063900 ms  DeleteObjects: 0.123900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003142 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.725 seconds
+Domain Reload Profiling:
+	ReloadAssembly (725ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (547ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.9 KB). Loaded Objects now: 4308.
+Memory consumption went from 145.7 MB to 145.5 MB.
+Total: 2.681400 ms (FindLiveObjects: 0.233300 ms CreateObjectMapping: 0.199600 ms MarkObjects: 2.081200 ms  DeleteObjects: 0.166400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003957 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.749 seconds
+Domain Reload Profiling:
+	ReloadAssembly (749ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.0 KB). Loaded Objects now: 4311.
+Memory consumption went from 145.7 MB to 145.5 MB.
+Total: 2.459300 ms (FindLiveObjects: 0.204000 ms CreateObjectMapping: 0.101500 ms MarkObjects: 2.027500 ms  DeleteObjects: 0.125500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1737.065345 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_051.png
+  artifactKey: Guid(b1f565436baac484e9217132978d7c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_051.png using Guid(b1f565436baac484e9217132978d7c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26409632826aac89fdebc02bad2b3c0') in 0.179456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/battle-get-buff/battle-get-buff_025.png
+  artifactKey: Guid(8e95e80cc0a57f6448d37071e968ef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/battle-get-buff/battle-get-buff_025.png using Guid(8e95e80cc0a57f6448d37071e968ef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cc2af16c1ed078851e46ec609414b5') in 0.023839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_018.png
+  artifactKey: Guid(eba9cc7841df07346b94d065139998c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_018.png using Guid(eba9cc7841df07346b94d065139998c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c930ded9107a0431c1087c9c5eec4548') in 0.032219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/attack-ranged-cast/attack-ranged-cast_019.png
+  artifactKey: Guid(0f69ccbb6d9b5dd46993499889cfaaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/attack-ranged-cast/attack-ranged-cast_019.png using Guid(0f69ccbb6d9b5dd46993499889cfaaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48eee0b5a65ab025533b5455fc1ad937') in 0.021364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/battle-get-buff/battle-get-buff_019.png
+  artifactKey: Guid(3396e84edac81e145aa7043c8c8c08c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/battle-get-buff/battle-get-buff_019.png using Guid(3396e84edac81e145aa7043c8c8c08c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab501eb7d9f5b534c662055858ff68cc') in 0.028451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/attack-ranged-cast-high/attack-ranged-cast-high_078.png
+  artifactKey: Guid(20ebc229e6eec2543905105c0cc8a3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/attack-ranged-cast-high/attack-ranged-cast-high_078.png using Guid(20ebc229e6eec2543905105c0cc8a3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7118d4a5655153be9376a73dfdfad23') in 0.086509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_005.png
+  artifactKey: Guid(761f0877662e2424fbaa7aeebb5875a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_005.png using Guid(761f0877662e2424fbaa7aeebb5875a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf984666a39d38b372a11cc76dc1c7d') in 0.025866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-dad/battle-get-buff/battle-get-buff_005.png
+  artifactKey: Guid(bcb64e542f644f04a8a70dd5b29a83a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-dad/battle-get-buff/battle-get-buff_005.png using Guid(bcb64e542f644f04a8a70dd5b29a83a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e385cc61fdb61ba8d23fe7a30ce1d6b') in 0.153402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-horn-gore/attack-melee-horn-gore_022.png
+  artifactKey: Guid(29fd174cc82bfb7429566fc5333390b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-horn-gore/attack-melee-horn-gore_022.png using Guid(29fd174cc82bfb7429566fc5333390b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd78053d8efa0c549e9caa9464bd61a0') in 0.029203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-dad/battle-get-buff/battle-get-buff_000.png
+  artifactKey: Guid(11290ea45991121438fc504e665d9e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-dad/battle-get-buff/battle-get-buff_000.png using Guid(11290ea45991121438fc504e665d9e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fdcfc59410d1753d42a6296fdc47ef') in 0.055378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_010.png
+  artifactKey: Guid(2363b3d5bbd0f9b4db9ed3738338a040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_010.png using Guid(2363b3d5bbd0f9b4db9ed3738338a040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3f1a387f86d69f253fa8c09219a007') in 0.042608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/battle-get-buff/battle-get-buff_015.png
+  artifactKey: Guid(3b4ce0ef5c4baff4dab79a8357d25049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/battle-get-buff/battle-get-buff_015.png using Guid(3b4ce0ef5c4baff4dab79a8357d25049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b79c726fb1c3a871cf14c0f5f6e8cd8') in 0.030066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/battle-get-buff/battle-get-buff_020.png
+  artifactKey: Guid(45633af720166bf4ca3766197eaaaabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/battle-get-buff/battle-get-buff_020.png using Guid(45633af720166bf4ca3766197eaaaabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51599cddfd253561e2c7a8a811f8c8a') in 0.022086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/attack-ranged-cast-multi/attack-ranged-cast-multi_014.png
+  artifactKey: Guid(4fb9f9d2b89937c418bc8d961b139ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/attack-ranged-cast-multi/attack-ranged-cast-multi_014.png using Guid(4fb9f9d2b89937c418bc8d961b139ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce1abef4ade27c27bcf6273a0121bc0') in 0.044664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/battle-get-buff/battle-get-buff_005.png
+  artifactKey: Guid(27c2d5d10bf359843aeba3e0a38c32b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/battle-get-buff/battle-get-buff_005.png using Guid(27c2d5d10bf359843aeba3e0a38c32b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67b16b2ceb54b469dfba78216e48f6a') in 0.027195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_052.png
+  artifactKey: Guid(2d7762692bd474540a511991eb2fc3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_052.png using Guid(2d7762692bd474540a511991eb2fc3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3da08f1e419ec71bbea4e36751ccf9') in 0.036208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-dad/battle-get-buff/battle-get-buff_019.png
+  artifactKey: Guid(e7e26a6f238045e4da6eeaeb81628daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-dad/battle-get-buff/battle-get-buff_019.png using Guid(e7e26a6f238045e4da6eeaeb81628daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7df91af4c657e26de8edd95a453f3e6') in 0.048491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/action-idle-normal/action-idle-normal_157.png
+  artifactKey: Guid(86bcab742b82d7e43a6c9a0f2faff2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/action-idle-normal/action-idle-normal_157.png using Guid(86bcab742b82d7e43a6c9a0f2faff2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39f074cfd586dd840cc6575b9cb154a') in 0.034593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_002.png
+  artifactKey: Guid(93bb36b024f3bab4583aa082203da3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_002.png using Guid(93bb36b024f3bab4583aa082203da3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6754e29bf76f5941d9430da23412a70') in 0.028633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/battle-get-buff/battle-get-buff_001.png
+  artifactKey: Guid(fb43494986d42bd4b93f7e0a9a5f9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/battle-get-buff/battle-get-buff_001.png using Guid(fb43494986d42bd4b93f7e0a9a5f9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce7f72dd20d3584cc902b6c6136fb97') in 0.019705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/attack-ranged-cast-high/attack-ranged-cast-high_080.png
+  artifactKey: Guid(b87b304cda0487a4ba9e3cfb9187ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/attack-ranged-cast-high/attack-ranged-cast-high_080.png using Guid(b87b304cda0487a4ba9e3cfb9187ee48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea64b591ea73abc236bdd0c96b10f62') in 0.065029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_043.png
+  artifactKey: Guid(7c57bdbc0ddc64d48b144873f49faa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_043.png using Guid(7c57bdbc0ddc64d48b144873f49faa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed2273789dfce3b1e8dfa3f82ba27ec') in 0.035795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_042.png
+  artifactKey: Guid(b64e92c302f51d74c887eb69c1af8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_042.png using Guid(b64e92c302f51d74c887eb69c1af8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09408ba4d3cbc4a1ac21e7aeda4e62ae') in 0.042545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-melee-normal-attack/attack-melee-normal-attack_042.png
+  artifactKey: Guid(3070d4781b6aee9488ea4a016ad08ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-melee-normal-attack/attack-melee-normal-attack_042.png using Guid(3070d4781b6aee9488ea4a016ad08ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e7f1275d123ed41d8132ae6353a8cd') in 0.052190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_017.png
+  artifactKey: Guid(3fe29d7e1f52f2549bf679224e93fd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_017.png using Guid(3fe29d7e1f52f2549bf679224e93fd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2be3b24a5c30281de191b06ae96fda') in 0.037514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-dad/battle-get-buff/battle-get-buff_025.png
+  artifactKey: Guid(b18ce0db687588047ab9c30b27e7acf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-dad/battle-get-buff/battle-get-buff_025.png using Guid(b18ce0db687588047ab9c30b27e7acf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d2a680e8c7756eee7b0de621e32d54') in 0.051639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_025.png
+  artifactKey: Guid(048156fe3e830d44a93c00a4ecd026ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_025.png using Guid(048156fe3e830d44a93c00a4ecd026ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f83f0a434eb3c4862627b0a2ef23691') in 0.029597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/attack-ranged-cast-high/attack-ranged-cast-high_069.png
+  artifactKey: Guid(9748c385596dd8645a1c1e08c2f2c939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/attack-ranged-cast-high/attack-ranged-cast-high_069.png using Guid(9748c385596dd8645a1c1e08c2f2c939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ac523a3460b18c3a2f3a0330c566fe') in 0.069127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_042.png
+  artifactKey: Guid(96046f623c9ff9d4eb6da891557491b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_042.png using Guid(96046f623c9ff9d4eb6da891557491b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a70ae7c234781b15e4a090cf323dc1b') in 0.033597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/battle-get-buff/battle-get-buff_017.png
+  artifactKey: Guid(ea611b612e0c56542ab73707e73b5072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/battle-get-buff/battle-get-buff_017.png using Guid(ea611b612e0c56542ab73707e73b5072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ca592046bc041d0923f38df542a017') in 0.019758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_008.png
+  artifactKey: Guid(f5bced699914da7429a3c7309bfbd692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_008.png using Guid(f5bced699914da7429a3c7309bfbd692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae64083e04874eb8789d5ac8c581f92') in 0.034960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_044.png
+  artifactKey: Guid(67a8be5cf59f0b84f886d389bdba9439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_044.png using Guid(67a8be5cf59f0b84f886d389bdba9439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd47066e727321b0c8a73f5d0fed0a00') in 0.029499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-melee-normal-attack/attack-melee-normal-attack_044.png
+  artifactKey: Guid(4c0d8b2b845806d4d9699c55d3819787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-melee-normal-attack/attack-melee-normal-attack_044.png using Guid(4c0d8b2b845806d4d9699c55d3819787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a215ccbac768754434aecd7977ae52') in 0.041480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/action-idle-normal/action-idle-normal_158.png
+  artifactKey: Guid(ab70e7549d763dd4c9bc4dbcd5472963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/action-idle-normal/action-idle-normal_158.png using Guid(ab70e7549d763dd4c9bc4dbcd5472963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f9bdfc1b8d76d172251cbe7b5f603f') in 0.034160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_011.png
+  artifactKey: Guid(8fc7a27936284784cb04d34e3d7a9f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_011.png using Guid(8fc7a27936284784cb04d34e3d7a9f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a84fa0da8d185e570c7acf2adaedfef') in 0.032093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/attack-ranged-cast-high/attack-ranged-cast-high_072.png
+  artifactKey: Guid(052e4590d80ff9e4fb6136955152529c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/attack-ranged-cast-high/attack-ranged-cast-high_072.png using Guid(052e4590d80ff9e4fb6136955152529c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9eacc4afc508f320884eb78500233bb') in 0.059296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_044.png
+  artifactKey: Guid(8fab6b89c42cb9b408e749776be68677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_044.png using Guid(8fab6b89c42cb9b408e749776be68677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a54efbf95a291682319ccfce0fe6985') in 0.039896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/attack-ranged-cast-multi/attack-ranged-cast-multi_015.png
+  artifactKey: Guid(56b9ff8dabefc584281ef4da4247e8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/attack-ranged-cast-multi/attack-ranged-cast-multi_015.png using Guid(56b9ff8dabefc584281ef4da4247e8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafe5798e3b0dd3360d81f57f44cbf3a') in 0.034516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/puffy/attack-ranged-cast-fly/attack-ranged-cast-fly_017.png
+  artifactKey: Guid(062603b640d50654ba7ee8fa54fba329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/puffy/attack-ranged-cast-fly/attack-ranged-cast-fly_017.png using Guid(062603b640d50654ba7ee8fa54fba329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a3d2c81c04bf7266085efce10f3a36') in 0.023861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_035.png
+  artifactKey: Guid(34477d8970c304d489efade51d5c9c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_035.png using Guid(34477d8970c304d489efade51d5c9c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62556bc2d8cf7e0f579e05163f39fcc') in 0.024709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_031.png
+  artifactKey: Guid(4b3e5c623a18e4049a8dc76f8ae74efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_031.png using Guid(4b3e5c623a18e4049a8dc76f8ae74efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebcb0a69adcdb34e2d2ab0bb18438c2') in 0.036829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_035.png
+  artifactKey: Guid(e6db646e62903124aa7c05d20709a484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_035.png using Guid(e6db646e62903124aa7c05d20709a484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09b9148845f5854865e7e102355f415') in 0.041361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-dad/battle-get-buff/battle-get-buff_007.png
+  artifactKey: Guid(e4ec0037420327c419b09cf4c8b9c6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-dad/battle-get-buff/battle-get-buff_007.png using Guid(e4ec0037420327c419b09cf4c8b9c6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4488d588eece0f269f04b3c23a1b5a6c') in 0.053557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/attack-ranged-cast/attack-ranged-cast_017.png
+  artifactKey: Guid(f0bfc9ccc2a42d2439c14a53b5c3aa9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/attack-ranged-cast/attack-ranged-cast_017.png using Guid(f0bfc9ccc2a42d2439c14a53b5c3aa9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adffa3954dc258768050cd64d858ecf') in 0.018964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_009.png
+  artifactKey: Guid(6260c94510028a9438300bfeacdce6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_009.png using Guid(6260c94510028a9438300bfeacdce6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d6b2703147d64aacf9fa0e673f5ac9') in 0.036890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_007.png
+  artifactKey: Guid(fa9962f97be3fcc49a3ddf9c591dd296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_007.png using Guid(fa9962f97be3fcc49a3ddf9c591dd296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a597b33805b4e290e82ba5dca3f3384b') in 0.036199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/attack-ranged-cast-high/attack-ranged-cast-high_077.png
+  artifactKey: Guid(937e493eb8b6c174eab227a7635abff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/attack-ranged-cast-high/attack-ranged-cast-high_077.png using Guid(937e493eb8b6c174eab227a7635abff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb091cf465c4ea7b0822020287ca815') in 0.061163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/battle-get-buff/battle-get-buff_019.png
+  artifactKey: Guid(c0c6220e7530b5043bb35bcd34a37e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/battle-get-buff/battle-get-buff_019.png using Guid(c0c6220e7530b5043bb35bcd34a37e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2432bb56cfbaf46e9e0ee3fd1882cf1f') in 0.022778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/attack-ranged-cast-multi/attack-ranged-cast-multi_013.png
+  artifactKey: Guid(93c45905d7abaf6438a2a352ac41c78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/attack-ranged-cast-multi/attack-ranged-cast-multi_013.png using Guid(93c45905d7abaf6438a2a352ac41c78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f4632ea49a80ef7aa388809911e498') in 0.037592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-ranged-cast-high/attack-ranged-cast-high_000.png
+  artifactKey: Guid(38429b42ba8f2d04b8ba3922710f8fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-ranged-cast-high/attack-ranged-cast-high_000.png using Guid(38429b42ba8f2d04b8ba3922710f8fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d34381d453dca4f0a2221a8bc59154') in 0.040915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/wolf-gray/attack-melee-normal-attack.png
+  artifactKey: Guid(02bdad5e79acf064885acdcc1186d7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/wolf-gray/attack-melee-normal-attack.png using Guid(02bdad5e79acf064885acdcc1186d7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a6ee66d32e694949c34a153ba3bd2d') in 0.026752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_044.png
+  artifactKey: Guid(68610760fad22164fbc2784f5bd6154b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_044.png using Guid(68610760fad22164fbc2784f5bd6154b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803227de1841fb396e6481234efa53d7') in 0.030284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/buba/attack-ranged-cast-fly/attack-ranged-cast-fly_017.png
+  artifactKey: Guid(d2c4d83e318f78346a8297df37c918d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/buba/attack-ranged-cast-fly/attack-ranged-cast-fly_017.png using Guid(d2c4d83e318f78346a8297df37c918d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a60bc98c730f2d2d2154892e5f9d119') in 0.027728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/buba/attack-ranged-cast-fly/attack-ranged-cast-fly_019.png
+  artifactKey: Guid(2532bde1ca0af4b4a93877b8131e2f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/buba/attack-ranged-cast-fly/attack-ranged-cast-fly_019.png using Guid(2532bde1ca0af4b4a93877b8131e2f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab273bf00da5b6180c1a58cc0181f359') in 0.023396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/attack-ranged-cast-multi/attack-ranged-cast-multi_011.png
+  artifactKey: Guid(111f4785153aa1444bbd27bff9737039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/attack-ranged-cast-multi/attack-ranged-cast-multi_011.png using Guid(111f4785153aa1444bbd27bff9737039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5df3bf2993a429555e742c9d540df19') in 0.037192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_052.png
+  artifactKey: Guid(554497c13ba391e4dace58d139331262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_052.png using Guid(554497c13ba391e4dace58d139331262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf831c2280f5335dda1534fe760b000') in 0.042258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-melee-normal-attack/attack-melee-normal-attack_043.png
+  artifactKey: Guid(c92ff286bddb7984c8f78734e1510017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-melee-normal-attack/attack-melee-normal-attack_043.png using Guid(c92ff286bddb7984c8f78734e1510017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f4fd2665ddc2c890c212ee5c12e045') in 0.044785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_020.png
+  artifactKey: Guid(324b432f4e0b19f4490421a575385d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_020.png using Guid(324b432f4e0b19f4490421a575385d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4c500fd5805a920e3dd701e5185af7') in 0.044950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_025.png
+  artifactKey: Guid(8b7ab9c4ac090f347bde682fa87fed41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_025.png using Guid(8b7ab9c4ac090f347bde682fa87fed41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46066b27e55b1275e8a7a60eae83662') in 0.049088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/action-move-forward.png
+  artifactKey: Guid(ae1e5d9322c8377459bd6ac9f2b37c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/action-move-forward.png using Guid(ae1e5d9322c8377459bd6ac9f2b37c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76033ef9d5d5e15927db92f77247262') in 0.029923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_000.png
+  artifactKey: Guid(f1b444d4b6914fd46bb812dda0cf56b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_000.png using Guid(f1b444d4b6914fd46bb812dda0cf56b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b46461e4b40785d28c954b277e1f95') in 0.042489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-melee-normal-attack/attack-melee-normal-attack_046.png
+  artifactKey: Guid(07754179c7337a048b728b994878cd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-melee-normal-attack/attack-melee-normal-attack_046.png using Guid(07754179c7337a048b728b994878cd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183a1c84633ed5e25949d2332b568045') in 0.043686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/puffy/attack-ranged-cast-fly/attack-ranged-cast-fly_019.png
+  artifactKey: Guid(5623bee516dc70b4ab6bdf34e1ef2efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/puffy/attack-ranged-cast-fly/attack-ranged-cast-fly_019.png using Guid(5623bee516dc70b4ab6bdf34e1ef2efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25aa67483747763273a4c2269edddf18') in 0.025703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-ranged-cast-high/attack-ranged-cast-high_004.png
+  artifactKey: Guid(f709de98c5ea1be46b1ac01960ad7c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-ranged-cast-high/attack-ranged-cast-high_004.png using Guid(f709de98c5ea1be46b1ac01960ad7c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34daa68bafb667bdfea8e450cc3b6128') in 0.028252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/battle-get-buff/battle-get-buff_016.png
+  artifactKey: Guid(fb3815431ba4fcd48ba296f128f710d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/battle-get-buff/battle-get-buff_016.png using Guid(fb3815431ba4fcd48ba296f128f710d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7694112675158397017eba7025b5beba') in 0.021580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_036.png
+  artifactKey: Guid(937494d3985381d4d92aae98e7009788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_036.png using Guid(937494d3985381d4d92aae98e7009788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a8a38d2deb179579f7245807a726ea') in 0.042497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-ranged-cast-high/attack-ranged-cast-high_000.png
+  artifactKey: Guid(ef075524e44379743a780e7148ef4488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-ranged-cast-high/attack-ranged-cast-high_000.png using Guid(ef075524e44379743a780e7148ef4488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a24e56002496da58575ac19a3706cc8') in 0.025971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_039.png
+  artifactKey: Guid(4c28fa51fdc148f4fb0d781da20e3967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_039.png using Guid(4c28fa51fdc148f4fb0d781da20e3967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c0b18fb2732c5e27cbb4c4d2538385') in 0.037233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-dad/battle-get-buff/battle-get-buff_026.png
+  artifactKey: Guid(7a538df2361c1464ebdfa84dcd992bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-dad/battle-get-buff/battle-get-buff_026.png using Guid(7a538df2361c1464ebdfa84dcd992bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6168b6a0336a6a0ef0bbbc31af8eb5ab') in 0.050371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-dad/battle-get-buff/battle-get-buff_018.png
+  artifactKey: Guid(6966ef19f66fc3c4b812c11daddd6e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-dad/battle-get-buff/battle-get-buff_018.png using Guid(6966ef19f66fc3c4b812c11daddd6e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270071ff6846386ca702b0137cccf4e1') in 0.046861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_043.png
+  artifactKey: Guid(4992e4b5c06e6b94a80264b075df7a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_043.png using Guid(4992e4b5c06e6b94a80264b075df7a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511ed14eca0632c00617b201646a156e') in 0.030134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/wolf-gray/battle-get-buff.png
+  artifactKey: Guid(e76bc53308daf0c4fb069d9a966e4bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/wolf-gray/battle-get-buff.png using Guid(e76bc53308daf0c4fb069d9a966e4bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f726fd7018ab76e00e56b5d8fdb98e22') in 0.022028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/battle-get-buff/battle-get-buff_010.png
+  artifactKey: Guid(c60afdf4511a0dc448de90a0924a4901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/battle-get-buff/battle-get-buff_010.png using Guid(c60afdf4511a0dc448de90a0924a4901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72aa50ec42b01788c3a25786bb3f84a') in 0.028360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_009.png
+  artifactKey: Guid(080d5e8a68812414bbab1890df7f30e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_009.png using Guid(080d5e8a68812414bbab1890df7f30e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60933273f6da2d9b5f10f0891401aec') in 0.036830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-melee-normal-attack/attack-melee-normal-attack_047.png
+  artifactKey: Guid(ce020d287cd726a46858ff668f9b3851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-melee-normal-attack/attack-melee-normal-attack_047.png using Guid(ce020d287cd726a46858ff668f9b3851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a317343decdc414311731838795f6af5') in 0.042209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-ranged-cast-fly/attack-ranged-cast-fly_017.png
+  artifactKey: Guid(645d192075b13984a97fa010f26d4b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-ranged-cast-fly/attack-ranged-cast-fly_017.png using Guid(645d192075b13984a97fa010f26d4b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bd211f1e50aecd97616976d0b28aee') in 0.025811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/attack-ranged-cast-high/attack-ranged-cast-high_047.png
+  artifactKey: Guid(689c18361ce5c11438c6ea2c761a83ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/attack-ranged-cast-high/attack-ranged-cast-high_047.png using Guid(689c18361ce5c11438c6ea2c761a83ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9ed8573c52ba7c5a0f4c7e910de06a') in 0.067146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/battle-get-buff/battle-get-buff_011.png
+  artifactKey: Guid(6bfe28ed90092264ab447d040bd3c1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/battle-get-buff/battle-get-buff_011.png using Guid(6bfe28ed90092264ab447d040bd3c1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e114eee4679880ea62e3f5802ad5367e') in 0.020496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/battle-get-buff/battle-get-buff_027.png
+  artifactKey: Guid(fe25c4f192e1f394db72c22ac0147c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/battle-get-buff/battle-get-buff_027.png using Guid(fe25c4f192e1f394db72c22ac0147c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a60949e801744fac325cfde51f57e9b') in 0.026932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_005.png
+  artifactKey: Guid(4bc34382330ef9d4ea91796cdbee1c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_005.png using Guid(4bc34382330ef9d4ea91796cdbee1c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7674f11b4b097e5f3721e4de1a2975') in 0.037746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_001.png
+  artifactKey: Guid(0a507ffd973df7b4c812010d6d2c889a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_001.png using Guid(0a507ffd973df7b4c812010d6d2c889a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d6143b2ffb777b7ba88de46e8573c6') in 0.030003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_012.png
+  artifactKey: Guid(b5931836445c3284abfef91c1c30dc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_012.png using Guid(b5931836445c3284abfef91c1c30dc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bcdf34ce1e1929bfba24082951bec2') in 0.030737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/action-idle-normal/action-idle-normal_159.png
+  artifactKey: Guid(897e237babaf7554c9ba78d2697c3d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/action-idle-normal/action-idle-normal_159.png using Guid(897e237babaf7554c9ba78d2697c3d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12625d4373eae44a77a935c397ee85e4') in 0.034053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-ranged-cast-high/attack-ranged-cast-high_003.png
+  artifactKey: Guid(d3fdf459c59fc624492ba588f245ba81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-ranged-cast-high/attack-ranged-cast-high_003.png using Guid(d3fdf459c59fc624492ba588f245ba81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4ddd74a1a9024c6283c99ee2ed43f3') in 0.045029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_019.png
+  artifactKey: Guid(45826ea18a4d4b64dbdda1ac75bfb55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_019.png using Guid(45826ea18a4d4b64dbdda1ac75bfb55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4af15dee93345dfb24218c55b345926') in 0.024377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_005.png
+  artifactKey: Guid(3321881dafc86fc4a94f71343fdb7255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_005.png using Guid(3321881dafc86fc4a94f71343fdb7255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a0b25bf0aee400b7e23c02b3305913') in 0.030537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_043.png
+  artifactKey: Guid(918022c8c0375f2439e181ba6fefc2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_043.png using Guid(918022c8c0375f2439e181ba6fefc2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7565122073791adddcfee03047492c51') in 0.040053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/attack-ranged-cast-high/attack-ranged-cast-high_076.png
+  artifactKey: Guid(4280c9108bfe63d4591e0af51ec397c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/attack-ranged-cast-high/attack-ranged-cast-high_076.png using Guid(4280c9108bfe63d4591e0af51ec397c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f04b04be5de361bd756ac4f6f17360') in 0.067091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/battle-get-buff/battle-get-buff_003.png
+  artifactKey: Guid(86c6e70627c020f4490e978d9bfc911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/battle-get-buff/battle-get-buff_003.png using Guid(86c6e70627c020f4490e978d9bfc911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce7889dab0ef66bdc9069c4d89be8c0') in 0.022222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/attack-ranged-cast-multi/attack-ranged-cast-multi_012.png
+  artifactKey: Guid(7e10b4017b113c440b26b539f64ad9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/treant-fighter/attack-ranged-cast-multi/attack-ranged-cast-multi_012.png using Guid(7e10b4017b113c440b26b539f64ad9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb2eea16df537fd40712fa9489b5d6b') in 0.036181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-ranged-cast-high/attack-ranged-cast-high_001.png
+  artifactKey: Guid(568857da0a96e6340bbb96e53be166a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-ranged-cast-high/attack-ranged-cast-high_001.png using Guid(568857da0a96e6340bbb96e53be166a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65a12582a665af7ec221791b110e971') in 0.038203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_019.png
+  artifactKey: Guid(5b4fc749a2fdce247ad561378b5eda20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_019.png using Guid(5b4fc749a2fdce247ad561378b5eda20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4fde2c2cc7c5bfede5837599a51ed3') in 0.039547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_004.png
+  artifactKey: Guid(24ce8fa09c0892840bad88a5ac87715a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_004.png using Guid(24ce8fa09c0892840bad88a5ac87715a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bc0f0a176561f864651b27522847b3') in 0.034632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_021.png
+  artifactKey: Guid(a89c383be981304468149598447ddac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_021.png using Guid(a89c383be981304468149598447ddac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032bd7ebb95980dd83af114ae799c70c') in 0.028167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_003.png
+  artifactKey: Guid(dc9bc69b0f717f64a92cf2fd8fd260ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/battle-get-buff/battle-get-buff_003.png using Guid(dc9bc69b0f717f64a92cf2fd8fd260ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662a4baeca4a8a9aecb83a11b3b4a3e1') in 0.049142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.429691 seconds.
+  path: Assets/Gui/Electricity.mat
+  artifactKey: Guid(d80e2a2e61efe9a4ea03b25006407b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gui/Electricity.mat using Guid(d80e2a2e61efe9a4ea03b25006407b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea36d0b35a03e6cc6f6051fbc4f6271') in 0.121862 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003826 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (532ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.8 KB). Loaded Objects now: 4420.
+Memory consumption went from 150.9 MB to 150.7 MB.
+Total: 3.028600 ms (FindLiveObjects: 0.320000 ms CreateObjectMapping: 0.236900 ms MarkObjects: 2.335100 ms  DeleteObjects: 0.135700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003066 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.740 seconds
+Domain Reload Profiling:
+	ReloadAssembly (741ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (559ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (196.0 KB). Loaded Objects now: 4423.
+Memory consumption went from 150.9 MB to 150.7 MB.
+Total: 2.599000 ms (FindLiveObjects: 0.217200 ms CreateObjectMapping: 0.104300 ms MarkObjects: 2.139300 ms  DeleteObjects: 0.137000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004478 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\84347\Documents\Work\Pet\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.712 seconds
+Domain Reload Profiling:
+	ReloadAssembly (713ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (546ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (195.9 KB). Loaded Objects now: 4426.
+Memory consumption went from 150.9 MB to 150.7 MB.
+Total: 2.870700 ms (FindLiveObjects: 0.206300 ms CreateObjectMapping: 0.102800 ms MarkObjects: 2.429100 ms  DeleteObjects: 0.131600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 935.188487 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Dark/Layers Collapsed@1x.png
+  artifactKey: Guid(dd04679f252ec40a8b931fbb52bd3f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Dark/Layers Collapsed@1x.png using Guid(dd04679f252ec40a8b931fbb52bd3f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba9b88f9711ed6bfff366ecdb0faec3') in 0.077038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/defense-hit-by-normal/defense-hit-by-normal_013.png
+  artifactKey: Guid(c4ab2bcd84f919745a08df43bfb77202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-mage/defense-hit-by-normal/defense-hit-by-normal_013.png using Guid(c4ab2bcd84f919745a08df43bfb77202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba8bc3fa1f1ef07ae94e6a922ea2612') in 0.043784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/defense-hit-by-normal/defense-hit-by-normal_013.png
+  artifactKey: Guid(99b70947b226a5a4981a691eaa525cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/defense-hit-by-normal/defense-hit-by-normal_013.png using Guid(99b70947b226a5a4981a691eaa525cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802b78b1bcbca5e8e52309b006c12e15') in 0.046803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_011.png
+  artifactKey: Guid(e5a3bedee5b81e145a5fdbd9cb87f8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/battle-get-buff/battle-get-buff_011.png using Guid(e5a3bedee5b81e145a5fdbd9cb87f8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da85cff2a4d942c587d7a3f3d2db8a8f') in 0.025564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_022.png
+  artifactKey: Guid(799a433a46a105348ab23eaede49561e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_022.png using Guid(799a433a46a105348ab23eaede49561e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74070bf8774211c76f0b5e4b75eb0791') in 0.030634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-melee-normal-attack/attack-melee-normal-attack_021.png
+  artifactKey: Guid(686bb446d10fc2a4abda4a963b157911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-melee-normal-attack/attack-melee-normal-attack_021.png using Guid(686bb446d10fc2a4abda4a963b157911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6b09f2c4b9cf9cb80bf15d4c4282a5') in 0.041567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_011.png
+  artifactKey: Guid(78cf773291eef134e8c18e5b5e900cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/battle-get-buff/battle-get-buff_011.png using Guid(78cf773291eef134e8c18e5b5e900cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972c83db3a77d710a0b6a9b871826361') in 0.037641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/defense-hit-by-normal/defense-hit-by-normal_013.png
+  artifactKey: Guid(b38c0d82c7c123a48b2d9d322089997d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-ranger/defense-hit-by-normal/defense-hit-by-normal_013.png using Guid(b38c0d82c7c123a48b2d9d322089997d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16798ab0d23df28cface5d3cd2b6686a') in 0.033885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.913862 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-horn-gore/attack-melee-horn-gore_002.png
+  artifactKey: Guid(7f30d892b2c91334790ccdd5d8eec112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-horn-gore/attack-melee-horn-gore_002.png using Guid(7f30d892b2c91334790ccdd5d8eec112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4728258eb4280c47d094b50e4e15582a') in 0.023467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.760147 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-horn-gore/attack-melee-horn-gore_007.png
+  artifactKey: Guid(cfed0b1e4401c0e4ab02eb59c3b84394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-horn-gore/attack-melee-horn-gore_007.png using Guid(cfed0b1e4401c0e4ab02eb59c3b84394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9908cec4bdb203a94feb980046d75da9') in 0.023674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.304503 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/puffy/attack-melee-horn-gore/attack-melee-horn-gore_009.png
+  artifactKey: Guid(9f573d5fc3a7ae24c8995084ea22c11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/puffy/attack-melee-horn-gore/attack-melee-horn-gore_009.png using Guid(9f573d5fc3a7ae24c8995084ea22c11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7df716919cc3ee1e631f8da7ce2ae5') in 0.025181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034079 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/puffy/attack-melee-horn-gore/attack-melee-horn-gore_011.png
+  artifactKey: Guid(556fc182adda5dc4d829cbc9130d22a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/puffy/attack-melee-horn-gore/attack-melee-horn-gore_011.png using Guid(556fc182adda5dc4d829cbc9130d22a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c007cd69fdd0171acfff0e3abadeb7d6') in 0.021073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.413073 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-horn-gore/attack-melee-horn-gore_017.png
+  artifactKey: Guid(91ab81a937458a4438cfec58daa3c7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-horn-gore/attack-melee-horn-gore_017.png using Guid(91ab81a937458a4438cfec58daa3c7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a243e5a11917012d6ac18810aecac95a') in 0.020601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.298715 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/puffy/attack-melee-horn-gore/attack-melee-horn-gore_018.png
+  artifactKey: Guid(ccc284e4d46b8ef4b8ba62ef70cc0dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/puffy/attack-melee-horn-gore/attack-melee-horn-gore_018.png using Guid(ccc284e4d46b8ef4b8ba62ef70cc0dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a712cdf32e64c6d9052b3951d861d8') in 0.022577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/puffy/attack-melee-horn-gore/attack-melee-horn-gore_019.png
+  artifactKey: Guid(8abaf4c28f6d3f942b1c504e759d790c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/puffy/attack-melee-horn-gore/attack-melee-horn-gore_019.png using Guid(8abaf4c28f6d3f942b1c504e759d790c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e31bb0140c6b10b2ddaccf5fb304d68') in 0.023870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033367 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/puffy/attack-melee-horn-gore/attack-melee-horn-gore_020.png
+  artifactKey: Guid(73d78975daa94984da6ab798dfde3709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/puffy/attack-melee-horn-gore/attack-melee-horn-gore_020.png using Guid(73d78975daa94984da6ab798dfde3709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e43ed5be0a606ebe57aa68b6d26ecb') in 0.021160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.087348 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-normal-attack/attack-melee-normal-attack_002.png
+  artifactKey: Guid(f564e3372e5cbd64ba5ad402bc2e9e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-normal-attack/attack-melee-normal-attack_002.png using Guid(f564e3372e5cbd64ba5ad402bc2e9e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a1bf94843d5b024232ea220bc8a438') in 0.024909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.216090 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/attack-melee-normal-attack/attack-melee-normal-attack_004.png
+  artifactKey: Guid(af426ee9b8733d542aa165b0e51cf29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/attack-melee-normal-attack/attack-melee-normal-attack_004.png using Guid(af426ee9b8733d542aa165b0e51cf29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb3ba9f66af7a147136d46bae745b46') in 0.023562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.412488 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-melee-normal-attack/attack-melee-normal-attack_005.png
+  artifactKey: Guid(1b101aafe92d24a47b610d2a91147079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/dryad-fighter/attack-melee-normal-attack/attack-melee-normal-attack_005.png using Guid(1b101aafe92d24a47b610d2a91147079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c4c02261eaeb971045aaeda22d1beb') in 0.045611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-normal-attack/attack-melee-normal-attack_006.png
+  artifactKey: Guid(a5c2ea5d04ea26d4389af67a5fbbc9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-normal-attack/attack-melee-normal-attack_006.png using Guid(a5c2ea5d04ea26d4389af67a5fbbc9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c5bb319c7087f99b41245c684daf88') in 0.027518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031401 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_006.png
+  artifactKey: Guid(e5e957072f419ca41b1fab63bf90a262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_006.png using Guid(e5e957072f419ca41b1fab63bf90a262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693a8ccec2445214586ac457471974ef') in 0.025766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.782566 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/attack-melee-normal-attack/attack-melee-normal-attack_009.png
+  artifactKey: Guid(d8004990e7b8f68428e67a35701139a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/attack-melee-normal-attack/attack-melee-normal-attack_009.png using Guid(d8004990e7b8f68428e67a35701139a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d33e51feaec523202443815fa3f159') in 0.022455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.317536 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_010.png
+  artifactKey: Guid(b492f75dc25086e4fa81ab7f932b2c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_010.png using Guid(b492f75dc25086e4fa81ab7f932b2c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a1dd5e1fc1286d413a6bbf4c5e1cf5') in 0.026112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023015 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-normal-attack/attack-melee-normal-attack_010.png
+  artifactKey: Guid(d7a2a20cb331157479d07cb1263ebaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-normal-attack/attack-melee-normal-attack_010.png using Guid(d7a2a20cb331157479d07cb1263ebaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2789dd3e67c2db1894ae8d1c9c09842b') in 0.027158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.275655 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_011.png
+  artifactKey: Guid(346c30bbb8971d54f8eb190dac8b9ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_011.png using Guid(346c30bbb8971d54f8eb190dac8b9ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85c302d33e6da0fc171a99be514386d') in 0.026456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-normal-attack/attack-melee-normal-attack_012.png
+  artifactKey: Guid(8a7719ebacaa0fb49bcafc670f6c33d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-normal-attack/attack-melee-normal-attack_012.png using Guid(8a7719ebacaa0fb49bcafc670f6c33d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aef763a1667fd4c258877ae8d798596') in 0.024833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.990131 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-normal-attack/attack-melee-normal-attack_014.png
+  artifactKey: Guid(85b56941bc5aec54e806f08e79ef01b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-normal-attack/attack-melee-normal-attack_014.png using Guid(85b56941bc5aec54e806f08e79ef01b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cfe1227ab2cbdd6777cfa169f85572') in 0.024905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.381392 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_015.png
+  artifactKey: Guid(15ab57a18dd4dc141b9fbdde3ca88db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_015.png using Guid(15ab57a18dd4dc141b9fbdde3ca88db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ed59e3bb602be5e126c1d90836cefb') in 0.023228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.213312 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_016.png
+  artifactKey: Guid(c137d31ae296cf14ebe0e3bcf0a3f28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_016.png using Guid(c137d31ae296cf14ebe0e3bcf0a3f28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4829382a646cd2faf3b30a78036959') in 0.028348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031683 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-normal-attack/attack-melee-normal-attack_016.png
+  artifactKey: Guid(49e44d143591a6e49a7cdada7d3a761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-normal-attack/attack-melee-normal-attack_016.png using Guid(49e44d143591a6e49a7cdada7d3a761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c055ccff53a75bc0216a2f123fdce0cd') in 0.022225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.624093 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_019.png
+  artifactKey: Guid(5fa9aa7b03b183f47b076727f584d749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/bear-mom/attack-melee-normal-attack/attack-melee-normal-attack_019.png using Guid(5fa9aa7b03b183f47b076727f584d749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d12c1a41eab1f33171c3bb56bbf53c8') in 0.026728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.240933 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-normal-attack/attack-melee-normal-attack_019.png
+  artifactKey: Guid(b9db943ff4ff8e648b7ce932b5c7ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/starter-axies/pomodoro/attack-melee-normal-attack/attack-melee-normal-attack_019.png using Guid(b9db943ff4ff8e648b7ce932b5c7ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c0d145b283eb25202005f8d5b812b1') in 0.022198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032126 seconds.
+  path: Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/attack-melee-normal-attack/attack-melee-normal-attack_020.png
+  artifactKey: Guid(3e4076624d125ea4fa3cddd9d3c56226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/axie-spritesheets/axie-spritesheets/chimeras/slime/attack-melee-normal-attack/attack-melee-normal-attack_020.png using Guid(3e4076624d125ea4fa3cddd9d3c56226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68687f232dcf1b0827923a9ca61e4d3') in 0.023328 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
